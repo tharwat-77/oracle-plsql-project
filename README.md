@@ -1,24 +1,6 @@
 # oracle-plsql-project
 “Comprehensive PL/SQL package with salary management, premium calculation, and CSV export utilities.”
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  ----------------------------------------- craeting a view for the first function --------------------------------------------------
  create or replace view emp_sal_vw as 
 select j.MAX_SALARY , j.MIN_SALARY ,   e.SALARY as emp_sal , m.SALARY as mgr_sal , e.EMPLOYEE_ID
